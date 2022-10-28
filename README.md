@@ -1,4 +1,4 @@
-# Landing page of the yoga studio [HTML, CSS, JS]
+# Landing page of the Yoga Studio [HTML, CSS, JS]
 
 > This is a landing page created for a yoga studio:leaves:.
 What's interesting there:
