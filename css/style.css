@@ -1246,6 +1246,28 @@ h4, h5{
 	.sign-up{
 		padding: 0px 30px 100px 30px;
 	}
+	.sign-up__container .user-box input{
+		position: relative;
+		padding: 10px 0px;
+		font-size: 16px;
+		color: #fff;
+		border: none;
+		border-bottom: 1px solid #fff;
+		outline: none;
+		background: transparent;
+	}
+	.sign-up__container .user-box label{
+		position: relative;
+		padding: 10px 0;
+		font-size: 16px;
+		color: #fff;
+		pointer-events: none;
+		transition: .5s;
+	}
+	.sign-up__container .user-box input:focus ~ label,
+	.sign-up__container .user-box input:valid ~ label{
+		display: none;
+	}
 	.faq__container {
 		margin: 0;
 		padding: 0px 30px;
