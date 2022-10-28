@@ -221,7 +221,7 @@ body._lock{
 }
 .main-page__container {
 	height: 100vh;
-	background: #040404 url("../img/images/main.png") center no-repeat;
+	background: #040404 url("../img/images/main.webp") center no-repeat;
 	margin: 0px auto;
 }
 .main-page__title {
@@ -519,7 +519,7 @@ h1{
 	padding-bottom: 5px;
 }
 
-/* SIGN UO */
+/* SIGN UP */
 .sign-up {
 	background: #000 url("../img/images/sign_up.png") center bottom no-repeat;
 	padding: 70px 80px 170px 80px;
@@ -545,6 +545,7 @@ form{
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+
 .sign-up__container .user-box input{
 	position: relative;
 	padding: 10px 0px;
@@ -554,6 +555,7 @@ form{
 	border-bottom: 1px solid #fff;
 	outline: none;
 	background: transparent;
+	
 }
 .sign-up__container .user-box label{
 	position: relative;
@@ -755,7 +757,7 @@ h3{
 	border: 1px solid #526B57;
  }
  .accordion button .accordion-title {
-	padding: 1em 1.5em 1em 0;
+	padding: 1em 2em 1em 0;
  }
  .accordion button .icon {
 	display: inline-block;
@@ -1085,14 +1087,15 @@ h4, h5{
 		grid-template-columns: 25% 75%;
 	}
 	form{
-		display:block;
+		display:flex;
+		flex-direction: column;
 	}
-	.user-box {
+	/* .user-box {
 		margin-top: 15px;
 	}
 	.button-form{
 		margin-top: 30px;
-	}
+	} */
 }
 
 
@@ -1250,30 +1253,6 @@ h4, h5{
 	.footer {
 		padding: 30px 30px 20px 30px;
 	}
-	h5{
-		font-size: 24px;
-	}
-
-}
-
-
-@media (max-width: 389px){
-	.teachers__name {
-		font-size: 18px;
-		line-height: 20px;
-	}
-	.teachers__discription {
-		font-size: 14px;
-	}
-	.teachers__title{
-		font-size: 26px;
-	}
-	.about__element_1{
-		display: none;
-	}
-	.directions__title{
-		font-size: 30px;
-	}
 	.footer__link a{
 		font-size: 13px;
 	}
@@ -1296,9 +1275,6 @@ h4, h5{
 	.contact__link{
 		font-size: 13px;
 	}
-	h5{
-		font-size: 20px;
-	}
 	.phone {
 		background: none;
 		padding-left: 0px;
@@ -1306,5 +1282,28 @@ h4, h5{
 	.mail {
 		background:none;
 		padding-left: 0px;
+	}
+	h5{
+		font-size: 20px;
+	}
+}
+
+
+@media (max-width: 389px){
+	.teachers__name {
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.teachers__discription {
+		font-size: 14px;
+	}
+	.teachers__title{
+		font-size: 26px;
+	}
+	.about__element_1{
+		display: none;
+	}
+	.directions__title{
+		font-size: 30px;
 	}
 }

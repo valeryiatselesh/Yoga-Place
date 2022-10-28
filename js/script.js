@@ -188,7 +188,7 @@ phoneInput.addEventListener("keydown", function (event) {
   ) {
     event.preventDefault();
   }
-  var mask = "+111 111-111-111";
+  var mask = "+(111) 111-111-111";
 
   if (/[0-9\+\ \-\(\)]/.test(event.key)) {
     var currentString = this.value;
