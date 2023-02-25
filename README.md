@@ -2,6 +2,7 @@
 
 > This is a landing page created for a yoga studio
 What's interesting there:
+- Preloader with animation
 - Scroll Animation using CSS & JS
 - Stylish links hovers executed using the capabilities of the CSS
 - Using interesting hovers for buttons using CSS
