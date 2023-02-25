@@ -1,7 +1,6 @@
 # Landing page of the Yoga Studio [HTML, CSS, JS]
 
-> This is a landing page created for a yoga studio
-> What's interesting there:
+> This is a landing page created for a yoga studio. What's interesting:
 - Preloader with animation
 - Scroll Animation using CSS & JS
 - Stylish links hovers executed using the capabilities of the CSS
